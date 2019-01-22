@@ -333,6 +333,11 @@ body {
     margin: auto;
   }
 
+  .shadow-image {
+    width: 74%;
+    height: max-content;
+  }
+
   .about-page .row-info {
     flex-direction: column;
   }
