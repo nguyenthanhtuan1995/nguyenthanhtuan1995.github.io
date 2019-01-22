@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>React Boilerplate</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+
+<body>
+  <div id="container">
+    <header class="header-bar">
+      <i class="fa fa-bars header-item" onclick="onShowItem()"></i>
+      <div class="right-item">
+        <a href="#home" class="header-item home-item">
+          HOME
+        </a>
+        <a href="#about" class="header-item about-item">
+          ABOUT ME
+        </a>
+        <a href="#contact" class="header-item contact-item">
+          CONTACT
+        </a>
+      </div>
+      <i class="fa fa-search header-item" onclick="search()" >
+      </i>
+      <input class="search"></input>
+    </header>
+    <div class="list-item-header">
+      <a class="header-item">
+        HOME
+      </a>
+      <a class="header-item">
+        ABOUT ME
+      </a>
+      <a class="header-item">
+        CONTACT
+      </a>
+    </div>
+    <div id="home" class="home-page">
+      <div class="zone home-desciption">
+        <div class="text">Welcome you!</div>
+      </div>
+      <div class="zone home-image">
+        <div class="shadow-image hidden-img slide-1">
+          <img class="rotate-img" src="anh-tui.jpg"></img>
+
+        </div>
+        <img class="slide-2 hidden-img" src="trai-thong"></img>
+        <img class="slide-3 hidden-img" src="full-house"></img>
+      </div>
+    </div>
+    <div id="about" class="about-page">
+      <div class="row-info">
+        <div class="box">
+          <h1 class="author">NGUYEN THANH TUAN</h1>
+          <h4 class="job-title">Frontend developer</h4>
+        </div>
+        <div class="box description">
+          <div class="address">
+            Ho Chi Minh city, Vietnam
+          </div>
+          <div class="detail">
+            I am a web developer based in Ho Chi Minh city. My hobbit is: cooking, watching stream, game, v.v...
+          </div>
+        </div>
+      </div>
+      <div class="row-info">
+        <div class="box">
+          <h4 class="headline">WORK EXPERENCE</h4>
+          <div class="com-name">
+            TERRALOGIC
+          </div>
+          <span class="duration">
+            8/2017 - PRESENT
+          </span>
+          <div class="poison">
+            Software engineer.
+          </div>
+        </div>
+        <div class="box">
+          <h4 class="headline">WORK METHODOLOGY</h4>
+          <div class="method-row">
+            <div class="left-pull os">OS system</div>
+            <div class="right-pull detail">linux, macOS, windows</div>
+          </div>
+          <div class="method-row">
+            <div class="left-pull">Version Control System</div>
+            <div class="right-pull">git</div>
+          </div>
+        </div>
+      </div>
+      <div class="row-info">
+        <div class="box">
+          <h4 class="headline">PROJECT</h4>
+          <div class="prj-name"> Frankly(TERRALOGIC):</div>
+          <div class="summary">-Development of content management system( CMS) in base calypso. Work in 4 pages: Story editor, Video editor, Media
+            library, Channel page
+          </div>
+          <div class="prj-name">CARO-GAME PROJECT:(54.224.252.15)</div>
+          <div class="summary"> -Build caro games for many people to play together.
+          </div>
+        </div>
+      </div>
+      <div class="row-info">
+        <div class="box">
+          <h4 class="headline">SKILL</h4>
+          <div class="skill-area">
+            <div class="skill">
+              <div class="skill-name">HTML/HTML5</div>
+              <div class="point">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">CSS3/SASS</div>
+              <div class="point">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+            </div>
+          </div>
+          <div class="skill-area">
+            <div class="skill">
+              <div class="skill-name">JAVASCRIPT</div>
+              <div class="point">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">REACTJS</div>
+              <div class="point">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+            </div>
+          </div>
+          <div class="skill-area">
+            <div class="skill">
+              <div class="skill-name">MySQL</div>
+              <div class="point">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-name">TEAMWORK</div>
+              <div class="point">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+            </div>
+          </div>
+          <div class="skill-area">
+              <div class="skill">
+                <div class="skill-name">ENGLISH</div>
+                <div class="point">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill-name">NODEJS</div>
+                <div class="point">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                  <i class="fa fa-star-o"></i>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" >
+        <i class="fa fa-phone item"><span class="more" >0964751979</span></i>
+        <i class="fa fa-skype item"><span class="more" >nttuan1995@gmail.com</span></i>
+        <i class="fa fa-facebook item" onclick="location.href = 'https://www.facebook.com/NTTuan.HHT'" ></i>
+        <i class="fa fa-linkedin item" onclick="location.href = 'https://www.linkedin.com/in/thanh-tuan-nguyen-5b1144167/'" ></i>
+      </div>
+  </div>
+  <script src="myscripts.js"></script>
+</body>
+
+</html>
