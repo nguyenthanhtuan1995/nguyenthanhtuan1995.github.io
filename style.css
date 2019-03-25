@@ -3,6 +3,12 @@ body {
   font-family: 'Roboto';
 }
 
+.lnk {
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+}
+
 #container .header-bar {
   width: 100%;
   position: fixed;
